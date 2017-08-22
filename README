@@ -1,0 +1,12 @@
+environment:
+	anaconda3(Anaconda3-4.3.1-Linux-x86_64.sh)
+	tf 1.1(tensorflow_gpu-1.1.0-cp36-cp36m-linux_x86_64.whl)
+
+models:
+	TextCNN: Convolutional Neural Networks for Sentence Classification
+	TextHAN: Hierarchical Attention Networks for Document Classification
+	TextRCNN: Recurrent Convolutional Neural Networks for Text Classification
+	ACBLSTM: AC-BLSTM Asymmetric Convolutional Bidirectional LSTM Networks for Text Classification
+	TextACNN: another version of TextCNN, change the kxd conv to 1xd and kx1 conv
+
+test on zhihu data(https://biendata.com/competition/zhihu/)
